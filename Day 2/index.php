@@ -133,7 +133,7 @@
                         }
                     });
                     
-                    console.log($('#debtorList').length);
+                    
             }
         });
         
