@@ -129,7 +129,7 @@
                     $("#debtors").html("<h5 class='text-center'>Список сотрудников, превысивших лимит трат в месяц</h4><ul id='debtorList' class='list-group'></ul>");
                     jQuery.each(response, function(key, val) {
                         if (parseInt(val.l) < 0) {
-                            $("#debtorList").append("<li class='list-group-item list-group-item-danger text-center'>"+val.first_name+"</li>");
+                            $("#debtorList").append("<li class='list-group-item list-group-item-danger text-center'>"+val.first_name+" "+val.surname+"</li>");
                         }
                     });
                     
